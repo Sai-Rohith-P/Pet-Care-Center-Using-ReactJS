@@ -1,0 +1,129 @@
+
+.PricingPlans{
+    margin-top: -30px;
+    width: 99.8%;
+    /* height: 570px; */
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom:100px;
+}
+.box{
+    /* border: 2px solid red; */
+    margin-top: 140px;
+    padding-top: 60px;
+    width: 370px;
+    /* height: 500px; */
+    /* border: 2px solid red; */
+    background-color: rgb(243, 243, 243);
+    padding-bottom: 40px;
+}
+.box1{
+    padding-top: 60px;
+    width: 370px;
+    background-color: rgb(243, 243, 243);
+    padding-bottom: 40px;
+}
+.box h2,.box1 h2{
+    font-size:40px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+}
+.box>p,.box1>p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: -20px;
+    color: rgba(112, 112, 112, 0.732);
+}
+.colorBg,.colorBG1{
+    margin-top: 40px;
+    height: 90px;
+    background-color: rgb(255, 183, 49);
+    text-align: center;
+    padding-top: 0px;
+    position: relative;
+    color: white;
+}
+.colorBG1{
+    background-color: rgb(0, 0, 0);
+}
+.colorBg .doler{
+    position: absolute;
+    top: 0px;
+    left: 30%;
+    font-weight: 700;
+    font-size: 30px;
+}
+.colorBg .num{
+    font-size: 60px;
+    font-weight: 700;
+}
+.colorBg .mon{
+    font-size: 19px;
+}
+.innerText{
+    padding-left: 20px;
+    width: 100%;
+    height: 40px;
+    /* border: 2px solid red; */
+    display: flex;
+    padding-bottom: 5px;
+}
+.innerText>p{
+    font-size: 20px;
+    color: rgb(82, 82, 82);
+}
+.imgCheck,.imgCheck1{
+    margin-left: auto;
+    margin-right: 30px;
+   margin-top: 14px;
+    width: 24px;
+    height: 24px;
+    filter: invert(0.8) sepia(1) saturate(5) hue-rotate(-20deg) brightness(1.2);
+}
+.imgCheck1{
+    filter: invert(1);
+
+}
+.rohi{
+    margin-top: 20px;
+}
+.but{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.but button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 1s;
+    text-transform: uppercase;
+}
+.but button:hover{
+    color: black;
+}
+
+@media screen and (max-width:768px) {
+    .box{
+        margin-top: 30px;
+    }
+    .box1{
+        margin-top: 30px;
+    }
+    .PricingPlans{
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,186 @@
+.FooterContent{
+    width: 99.9%;
+  
+    background-color: rgb(231, 231, 231);
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.footerContentCenter{
+    margin: 40px auto 20px auto;
+    width: 80%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 
+}
+.firstBox{
+    padding: 10px 10px 10px 20px;
+    width: 250px;
+    height: 330px;
+  
+}
+.top{
+    width: 280px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.barline{
+    width: 5px;
+    height: 30px;
+    background-color: orange;
+}
+.text h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.myDetails{
+    font-size: 18px;
+    color: rgb(111, 111, 111);
+    margin-bottom: 20px;
+    margin-top: 17px;
+}
+.locationDetail{
+    height: 30px;
+    width: 90%;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+.locationDetail img{
+    width: 23px;
+    height: 23px;
+    filter:invert(0.5) sepia(1) saturate(10);
+    margin-right: 20px;
+}
+.locationDetail span{
+    font-size: 17px;
+    color: rgb(111, 111, 111);
+}
+.inp{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.firstBox input{
+    width: 70%;
+    height: 43px;
+    padding-left: 10px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid grey;
+}
+.firstBox button{
+    width: 80px;
+    font-size: 17px;
+    height: 43px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    transition: 1s;
+}
+.firstBox button:hover{
+    color: black;
+}
+.firstBox h3{
+    font-weight: 600;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.imgBG{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border: 1px solid grey;
+    padding: 15px;
+}
+.imgBG img{
+    width: 24px;
+    height: 24px;
+}
+.socialmedia{
+    display: flex;
+    gap: 10px;
+}
+.centerLinks ul li{
+    list-style: none;
+    margin: 10px;
+    margin-top: 10px;
+    font-size: 19px;
+    color: rgb(111, 111, 111);
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    cursor: pointer;
+    width: max-content;
+}
+
+.arrow{
+    margin-right: 10px;
+    filter:invert(0.5) sepia(1) saturate(10);
+    width: 40px;
+    height: 20px;
+}
+.divConditions p{
+    width: max-content;
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(111, 111, 111);
+}
+.lastfooterlast{
+    width: 99.8%;
+    background-color: rgb(33, 33, 33);
+    padding: 14px 0px 4px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.lastfooterlast p{
+    font-size: 20px;
+}
+.spanElememntlast{
+    color: rgb(146, 146, 146);
+}
+@media screen and (max-width:768px)  {
+    .footerContentCenter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .divConditions p{
+        font-size:20px;
+        width: 430px;
+    }
+}
+@media screen and (max-width:576px)  {
+    .footerContentCenter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .divConditions p{
+        font-size:18px;
+        width: 350px;
+        
+    }
+    .lastfooterlast{
+        display: flex;
+       flex-direction: column;
+    }
+}

@@ -1,0 +1,100 @@
+.imgWidthDiscount {
+    margin-top: 130px;
+    margin-bottom: 80px;
+    width: 99.8%;
+    height: 630px;
+    /* border: 2px solid red; */
+    background-image: url('../imges/dogWithBall.webp');
+    background-size: cover;
+    /* border: 2px solid red; */
+}
+
+.propsDiv {
+    padding: 50px 50px 20px 0px;
+}
+
+.linebar {
+    width: 5px;
+    background-color: orange;
+    height: 150px;
+}
+
+/* .sideTextOffer h1 {
+    color: white !;
+    font-size: 41px;
+} */
+
+.offerPara {
+    margin-left: 110px;
+    width: 600px;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+    /* border: 2px solid red; */
+}
+
+.buttons {
+    margin-left: 110px;
+    display: flex;
+    gap: 20px;
+}
+
+.buttons button {
+    width: 190px;
+    height: 49px;
+    font-size: 18px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.readMore {
+    background-color: transparent !important;
+    color: white;
+    cursor: pointer;
+}
+
+.readMore:hover {
+    color: black !important;
+    background-color: white !important;
+}
+
+@media screen and (max-width:768px) {
+    .offerPara {
+        margin-left: 40px;
+        width: 500px;
+    }
+    .imgWidthDiscount {
+        margin-top: 130px;
+        width: 99.8%;
+    }
+    .propsDiv {
+        padding: 10px 50px 20px 0px;
+    }
+}
+@media screen and (max-width:576px) {
+    .sideTextOffer h1 {
+        font-size: 34px;
+    }
+}
+@media screen and (max-width:480px) {
+    .buttons button {
+        width: 160px;
+    }
+    .imgWidthDiscount {
+        background-image: url('../imges/smallScreenDog.jpg');
+    }
+    .sideTextOffer h1 {
+        font-size: 26px;
+    }
+    .offerPara {
+        margin-left: 40px;
+        width: 350px;
+    }
+    .buttons {
+        margin-left: 40px;
+    }
+}

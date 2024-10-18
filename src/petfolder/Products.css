@@ -1,0 +1,106 @@
+.productpage{
+    display: flex;
+    justify-content: center;
+margin-bottom: 100px;
+/* border: 2px solid red; */
+
+}
+.productitemsbar{
+    /* border: 2px solid red; */
+    overflow-x: scroll;
+    padding: 50px;
+    margin-top: 80px;
+    width: 75%;
+    /* height: 390px; */
+    display: flex;
+    gap: 63px;
+    justify-content: space-around;
+}
+.productitemsbar {
+    overflow-x: scroll;
+    scrollbar-width: thin; 
+    scrollbar-color: orange rgb(226, 226, 226); 
+}
+
+
+.productitemsbar::-webkit-scrollbar {
+    height: 10px;
+}
+
+.productitemsbar::-webkit-scrollbar-thumb {
+    background-color: orange; 
+    border-radius: 40px; 
+}
+
+.productitemsbar::-webkit-scrollbar-track {
+    background-color: rgb(226, 226, 226);
+}
+
+.itemone{
+    width: 240px;
+    height: 360px;
+    background-color: rgb(226, 226, 226);
+    /* border: 2px solid red; */
+    position: relative;
+}
+.cartbox{
+    display: flex;
+    position: absolute;
+    bottom: -15px;
+    left: 30%;
+    width: 100px;
+    height: 40px;
+    /* background-color: orange; */
+    /* display: none; */
+}
+.cartone,.carttwo{
+    width: 49%;
+    height: 98%;
+    background-color: rgb(253, 180, 45);
+    cursor: pointer;
+}
+.cartimg{
+    position: absolute;
+    bottom: 9px;
+    left: 6%;
+    width:  24px !important;
+    height: 24px !important;
+    filter: invert(0.8);
+}
+.cartimg1{
+    position: absolute !important;
+    bottom: 10px !important;
+    right: 14% !important;
+    width:  23px !important;
+    height: 23px !important;
+    filter: invert(0.8);
+}
+.carttwo{
+    background-color: orange;
+}
+.itemone img{
+    margin-top: 30px;
+    height: 210px;
+    width: 230px;
+    margin-left: 6px;
+}
+.itemone h3{
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.itemone p{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: orange;
+}
+
+@media screen and (max-width:768px) {
+    .productitemsbar{
+        gap: 73px;
+    }
+}

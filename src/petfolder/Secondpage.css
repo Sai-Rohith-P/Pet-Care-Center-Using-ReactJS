@@ -1,0 +1,194 @@
+.secondpage {
+    margin-top: 100px;
+    /* border: 2px solid red; */
+}
+
+/* side style */
+.sidestyle {
+    margin-top: 100px;
+    margin-left: 110px;
+    display: flex;
+    gap: 40px;
+    /* border: 2px solid red; */
+}
+
+.linebar {
+    width: 5px;
+    background-color: orange;
+    height: 170px;
+}
+
+.sideText p {
+    margin-top: 1px;
+    font-size: 25px;
+    color: orange;
+    font-weight: 600;
+}
+
+.sideText h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: -10px;
+    color: black;
+}
+
+/* end */
+.servies {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.servies h1 {
+    font-size: 36px;
+}
+
+.learnMore {
+    font-size: 20px;
+    color: orange;
+    cursor: pointer;
+    width: max-content;
+    margin: auto;
+}
+
+.serviesprops {
+    /* border: 2px solid red; */
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.arrowblock {
+    /* border: 2px solid red; */
+    cursor: pointer;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.arrowblock img {
+    margin-right: 200px;
+    /* width:  90px; */
+    height: 20px;
+}
+
+.one {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 30px;
+    width: 600px;
+    background-color: rgb(226, 226, 226);
+    padding: 12px 40px;
+}
+
+.one p {
+    width: 400px;
+}
+
+.imgservices {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.imgservices img {
+    width: 100px;
+    height: 100px;
+}
+
+.h2services {
+    margin-top: 7px;
+    font-size: 21px !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+}
+
+.pservices {
+    /* border: 2px solid red; */
+    margin-top: 7px;
+    color: rgb(30, 30, 30);
+    font-size: 19px;
+}
+
+.textdiv {
+    /* border: 2px solid green; */
+    width: 80%;
+}
+
+@media screen and (max-width:768px) {
+    .sideText h1 {
+        font-size: 37px;
+    }
+
+    .linebar {
+        height: 140px;
+    }
+
+    .sidestyle2 {
+        /* border: 2px solid red; */
+        margin-left: -70px;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .sideText h1 {
+        font-size: 31px;
+    }
+
+    .linebar {
+        height: 123px;
+    }
+
+    .one {
+        width: 440px;
+        gap: 10px;
+    }
+
+    .pservices {
+        /* border: 2px solid green; */
+        width: 300px !important;
+    }
+
+}
+@media screen and (max-width:480px) {
+    .linebar {
+        height: 110px !important;
+    }
+}
+@media screen and (max-width:460px) {
+    .one {
+        width: 510px;
+        display: flex;
+       gap: 10px !important;
+    }
+    .pservices {
+        width: 100% !important;
+        font-size: 19px;
+    }
+    .sideText h1 {
+        font-size: 27px;
+
+    }
+
+    .linebar {
+        height: 120px !important;
+    }
+
+    .one {
+        width: 380px;
+        gap: 5px;
+    }
+    .arrowblock img {
+        margin-right: 52px;
+    }
+    .arrowblock {
+        width: 200px;
+    }
+
+}
